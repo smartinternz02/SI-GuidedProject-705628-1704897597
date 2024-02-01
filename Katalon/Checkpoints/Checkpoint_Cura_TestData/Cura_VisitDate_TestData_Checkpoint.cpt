@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Cura_VisitDate_TestData_Checkpoint</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/Cura_TestData/Cura_InternalTestData_VisitDate</source-url>
+   </source-info>
+   <taken-date>2024-01-31T20:31:26.18+05:30</taken-date>
+   <column-names>
+      <column-name>VisitDate</column-name>
+      <column-name>AppointmentConfirmation</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "3/3/2024",
+      "checked": false
+    },
+    {
+      "value": "Appointment Confirmation",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>
