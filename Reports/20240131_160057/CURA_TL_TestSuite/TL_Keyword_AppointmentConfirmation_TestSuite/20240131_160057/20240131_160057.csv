@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Keyword_AppointmentConfirmation_TestSuite,Chrome 121.0.0.0,,,31-01-2024 16:01:18,31-01-2024 16:02:59,1m - 41.202s,PASSED
+,,,,,,,
+Test Cases/TestListener/TC_TL_Keyword_AppointmentConfirmation_002,Chrome 121.0.0.0,,,31-01-2024 16:01:29,31-01-2024 16:02:59,1m - 29.847s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 16:01:30,31-01-2024 16:01:33,3.569s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 16:01:33,31-01-2024 16:02:09,35.933s,ERROR
+"click(findTestObject(""Object Repository/TL_Cura_Keyword_AppointmentConfirmation/Page_CURA Healthcare Service/h2_Make Appointment""))",Chrome 121.0.0.0,,,31-01-2024 16:02:10,31-01-2024 16:02:10,0.815s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TL_Cura_Keyword_AppointmentConfirmation/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 121.0.0.0,,,31-01-2024 16:02:10,31-01-2024 16:02:12,1.874s,PASSED
+"com.qa.test.TL_Keyword.CheckDropDownListElementExist(findTestObject(""TL_Cura_Keyword_AppointmentConfirmation/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Tokyo CURA Healthcare Center"")",Chrome 121.0.0.0,,,31-01-2024 16:02:12,31-01-2024 16:02:13,1.057s,PASSED
+"click(findTestObject(""Object Repository/TL_Cura_Keyword_AppointmentConfirmation/Page_CURA Healthcare Service/input_programs""))",Chrome 121.0.0.0,,,31-01-2024 16:02:13,31-01-2024 16:02:14,0.694s,PASSED
+"click(findTestObject(""Object Repository/TL_Cura_Keyword_AppointmentConfirmation/Page_CURA Healthcare Service/input_visit_date""))",Chrome 121.0.0.0,,,31-01-2024 16:02:14,31-01-2024 16:02:15,0.596s,PASSED
+"click(findTestObject(""Object Repository/TL_Cura_Keyword_AppointmentConfirmation/Page_CURA Healthcare Service/td_31""))",Chrome 121.0.0.0,,,31-01-2024 16:02:15,31-01-2024 16:02:15,0.738s,PASSED
+"setText(findTestObject(""Object Repository/TL_Cura_Keyword_AppointmentConfirmation/Page_CURA Healthcare Service/textarea_comment""), ""ijuhygtfr"")",Chrome 121.0.0.0,,,31-01-2024 16:02:15,31-01-2024 16:02:17,1.387s,PASSED
+"click(findTestObject(""Object Repository/TL_Cura_Keyword_AppointmentConfirmation/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 121.0.0.0,,,31-01-2024 16:02:17,31-01-2024 16:02:18,1.674s,PASSED
+"click(findTestObject(""Object Repository/TL_Cura_Keyword_AppointmentConfirmation/Page_CURA Healthcare Service/h2_Appointment Confirmation""))",Chrome 121.0.0.0,,,31-01-2024 16:02:18,31-01-2024 16:02:19,0.929s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 16:02:19,31-01-2024 16:02:22,2.285s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 16:02:22,31-01-2024 16:02:59,37.630s,ERROR

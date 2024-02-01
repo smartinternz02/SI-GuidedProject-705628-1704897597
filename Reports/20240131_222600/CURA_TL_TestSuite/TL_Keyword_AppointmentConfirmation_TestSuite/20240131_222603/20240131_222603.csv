@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Keyword_AppointmentConfirmation_TestSuite,Edge Chromium 121,,,31-01-2024 22:27:02,31-01-2024 22:28:32,1m - 30.568s,PASSED
+,,,,,,,
+Test Cases/TestListener/TC_TL_Keyword_AppointmentConfirmation_002,Edge Chromium 121,,,31-01-2024 22:27:10,31-01-2024 22:28:32,1m - 22.117s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 121,,,31-01-2024 22:27:10,31-01-2024 22:27:13,2.729s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 121,,,31-01-2024 22:27:13,31-01-2024 22:27:48,35.042s,ERROR
+"click(findTestObject(""Object Repository/TL_Cura_Keyword_AppointmentConfirmation/Page_CURA Healthcare Service/h2_Make Appointment""))",Edge Chromium 121,,,31-01-2024 22:27:48,31-01-2024 22:27:49,0.401s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TL_Cura_Keyword_AppointmentConfirmation/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Edge Chromium 121,,,31-01-2024 22:27:49,31-01-2024 22:27:50,1.062s,PASSED
+"com.qa.test.TL_Keyword.CheckDropDownListElementExist(findTestObject(""TL_Cura_Keyword_AppointmentConfirmation/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Tokyo CURA Healthcare Center"")",Edge Chromium 121,,,31-01-2024 22:27:50,31-01-2024 22:27:50,0.793s,PASSED
+"click(findTestObject(""Object Repository/TL_Cura_Keyword_AppointmentConfirmation/Page_CURA Healthcare Service/input_programs""))",Edge Chromium 121,,,31-01-2024 22:27:50,31-01-2024 22:27:51,0.424s,PASSED
+"click(findTestObject(""Object Repository/TL_Cura_Keyword_AppointmentConfirmation/Page_CURA Healthcare Service/input_visit_date""))",Edge Chromium 121,,,31-01-2024 22:27:51,31-01-2024 22:27:51,0.445s,PASSED
+"click(findTestObject(""Object Repository/TL_Cura_Keyword_AppointmentConfirmation/Page_CURA Healthcare Service/td_31""))",Edge Chromium 121,,,31-01-2024 22:27:51,31-01-2024 22:27:52,0.560s,PASSED
+"setText(findTestObject(""Object Repository/TL_Cura_Keyword_AppointmentConfirmation/Page_CURA Healthcare Service/textarea_comment""), ""ijuhygtfr"")",Edge Chromium 121,,,31-01-2024 22:27:52,31-01-2024 22:27:53,0.910s,PASSED
+"click(findTestObject(""Object Repository/TL_Cura_Keyword_AppointmentConfirmation/Page_CURA Healthcare Service/button_Book Appointment""))",Edge Chromium 121,,,31-01-2024 22:27:53,31-01-2024 22:27:54,0.905s,PASSED
+"click(findTestObject(""Object Repository/TL_Cura_Keyword_AppointmentConfirmation/Page_CURA Healthcare Service/h2_Appointment Confirmation""))",Edge Chromium 121,,,31-01-2024 22:27:54,31-01-2024 22:27:54,0.434s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoint_Cura_TestData/Cura_VisitDate_TestData_Checkpoint""), true)",Edge Chromium 121,,,31-01-2024 22:27:54,31-01-2024 22:27:54,0.060s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 121,,,31-01-2024 22:27:54,31-01-2024 22:27:56,1.531s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 121,,,31-01-2024 22:27:56,31-01-2024 22:28:32,36.482s,ERROR

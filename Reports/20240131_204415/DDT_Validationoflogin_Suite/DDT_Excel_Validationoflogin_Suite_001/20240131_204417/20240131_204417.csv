@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDT_Excel_Validationoflogin_Suite_001,Chrome 121.0.0.0,,,31-01-2024 20:44:36,31-01-2024 20:45:17,41.036s,PASSED
+,,,,,,,
+Test Cases/CURA Healthcare Services/TC_Cura_Home_ValidationofLogin_UsingDDT_001,Chrome 121.0.0.0,,,31-01-2024 20:44:37,31-01-2024 20:44:52,15.303s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 20:44:37,31-01-2024 20:44:38,1.074s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 20:44:38,31-01-2024 20:44:39,0.254s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 20:44:39,31-01-2024 20:44:42,3.174s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com"")",Chrome 121.0.0.0,,,31-01-2024 20:44:42,31-01-2024 20:44:45,3.023s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,31-01-2024 20:44:45,31-01-2024 20:44:46,0.493s,PASSED
+"click(findTestObject(""Cura_Validationoflogin_DDT_OR/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""), STOP_ON_FAILURE)",Chrome 121.0.0.0,,,31-01-2024 20:44:46,31-01-2024 20:44:47,0.980s,PASSED
+"click(findTestObject(""Cura_Validationoflogin_DDT_OR/Page_CURA Healthcare Service/a_Login""))",Chrome 121.0.0.0,,,31-01-2024 20:44:47,31-01-2024 20:44:48,1.297s,PASSED
+"setText(findTestObject(""Cura_Validationoflogin_DDT_OR/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username""), UserName)",Chrome 121.0.0.0,,,31-01-2024 20:44:48,31-01-2024 20:44:49,1.150s,PASSED
+"setText(findTestObject(""Cura_Validationoflogin_DDT_OR/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password""), Password)",Chrome 121.0.0.0,,,31-01-2024 20:44:49,31-01-2024 20:44:50,1.115s,PASSED
+"click(findTestObject(""Cura_Validationoflogin_DDT_OR/Page_CURA Healthcare Service/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 20:44:50,31-01-2024 20:44:52,1.286s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,31-01-2024 20:44:52,31-01-2024 20:44:52,0.463s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 20:44:52,31-01-2024 20:44:52,0.143s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 20:44:52,31-01-2024 20:44:52,0.105s,ERROR
+,,,,,,,
+Test Cases/CURA Healthcare Services/TC_Cura_Home_ValidationofLogin_UsingDDT_001,Chrome 121.0.0.0,,,31-01-2024 20:44:52,31-01-2024 20:45:05,12.800s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 20:44:52,31-01-2024 20:44:53,0.136s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 20:44:53,31-01-2024 20:44:53,0.146s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 20:44:53,31-01-2024 20:44:55,2.482s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com"")",Chrome 121.0.0.0,,,31-01-2024 20:44:55,31-01-2024 20:44:57,1.446s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,31-01-2024 20:44:57,31-01-2024 20:44:59,1.940s,PASSED
+"click(findTestObject(""Cura_Validationoflogin_DDT_OR/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""), STOP_ON_FAILURE)",Chrome 121.0.0.0,,,31-01-2024 20:44:59,31-01-2024 20:44:59,0.622s,PASSED
+"click(findTestObject(""Cura_Validationoflogin_DDT_OR/Page_CURA Healthcare Service/a_Login""))",Chrome 121.0.0.0,,,31-01-2024 20:44:59,31-01-2024 20:45:00,1.044s,PASSED
+"setText(findTestObject(""Cura_Validationoflogin_DDT_OR/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username""), UserName)",Chrome 121.0.0.0,,,31-01-2024 20:45:00,31-01-2024 20:45:01,1.241s,PASSED
+"setText(findTestObject(""Cura_Validationoflogin_DDT_OR/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password""), Password)",Chrome 121.0.0.0,,,31-01-2024 20:45:01,31-01-2024 20:45:03,1.063s,PASSED
+"click(findTestObject(""Cura_Validationoflogin_DDT_OR/Page_CURA Healthcare Service/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 20:45:03,31-01-2024 20:45:04,1.389s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,31-01-2024 20:45:04,31-01-2024 20:45:05,0.686s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 20:45:05,31-01-2024 20:45:05,0.160s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 20:45:05,31-01-2024 20:45:05,0.341s,ERROR
+,,,,,,,
+Test Cases/CURA Healthcare Services/TC_Cura_Home_ValidationofLogin_UsingDDT_001,Chrome 121.0.0.0,,,31-01-2024 20:45:05,31-01-2024 20:45:17,11.494s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 20:45:05,31-01-2024 20:45:06,0.201s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 20:45:06,31-01-2024 20:45:06,0.185s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 20:45:06,31-01-2024 20:45:08,2.119s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com"")",Chrome 121.0.0.0,,,31-01-2024 20:45:08,31-01-2024 20:45:11,2.674s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,31-01-2024 20:45:11,31-01-2024 20:45:11,0.251s,PASSED
+"click(findTestObject(""Cura_Validationoflogin_DDT_OR/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""), STOP_ON_FAILURE)",Chrome 121.0.0.0,,,31-01-2024 20:45:11,31-01-2024 20:45:11,0.667s,PASSED
+"click(findTestObject(""Cura_Validationoflogin_DDT_OR/Page_CURA Healthcare Service/a_Login""))",Chrome 121.0.0.0,,,31-01-2024 20:45:11,31-01-2024 20:45:13,1.092s,PASSED
+"setText(findTestObject(""Cura_Validationoflogin_DDT_OR/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username""), UserName)",Chrome 121.0.0.0,,,31-01-2024 20:45:13,31-01-2024 20:45:14,1.237s,PASSED
+"setText(findTestObject(""Cura_Validationoflogin_DDT_OR/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password""), Password)",Chrome 121.0.0.0,,,31-01-2024 20:45:14,31-01-2024 20:45:15,1.052s,PASSED
+"click(findTestObject(""Cura_Validationoflogin_DDT_OR/Page_CURA Healthcare Service/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 20:45:15,31-01-2024 20:45:16,1.155s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,31-01-2024 20:45:16,31-01-2024 20:45:17,0.536s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 20:45:17,31-01-2024 20:45:17,0.129s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 20:45:17,31-01-2024 20:45:17,0.130s,ERROR
